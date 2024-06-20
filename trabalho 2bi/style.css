@@ -1,0 +1,672 @@
+@import url(https://fonts.google.com/specimen/League+Spartan);
+
+@media only screen and (min-width: 600px) {
+::-webkit-scrollbar{ width: 0.7rem;}
+::-webkit-scrollbar-track{background: rgba(162,7,80,255)}
+::-webkit-scrollbar-thumb{background: rgba(2,191,89,255); border-radius: 1rem;}
+}
+
+html {
+    background-color: navajowhite;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: "League Spartan", sans-serif;
+    overflow-x: hidden;
+}
+/* nav inicio */
+.navbar {
+    background-color: rgba(162,7,80,255);
+    display: flex;
+    height: 7rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1000;
+}
+
+.fundo_nav {
+    height: 7rem;
+    width: 100%;
+}
+
+.logo {
+    background-color: white;
+    padding: .2rem;
+    border-radius: 3rem;
+    height: 5.2rem;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+
+.logo:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex ;
+}
+
+.navbar li {
+    transition: 0.3s;
+    transition-timing-function: ease;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.navbar li:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.navbar a {
+    color: rgba(2,191,89,255);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.pedir {
+    border: solid white .2rem;
+    border-radius: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+
+.pedir a{
+    color: rgba(162,7,80,255);
+}
+
+.pedir:hover {
+    transform: scale(1.2, 1.2);
+}
+
+/* drawer inicio */
+a {
+    color: rgba(2,191,89,255);
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  a:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  #header {
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e7e7e7;
+  }
+  
+  #menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  #menu a {
+    display: block;
+  }
+  
+  #btn-mobile {
+    display: none;
+  }
+/* drawer fim */
+
+/* nav fim */
+
+
+
+/* footer inicio */
+
+footer{
+    background-color: rgba(162,7,80,255);
+    width: 100%;
+}
+
+
+
+.footer-todo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footer-todo div {
+    margin: .5rem;
+}
+
+.menu{
+    color:rgba(2,191,89,255);
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 0.2rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color:  white;
+}
+
+.redes {
+    color:rgba(2,191,89,255);
+    padding-top: 1.8rem;
+}
+
+.redes li{
+    list-style-type: none;
+}
+
+.mapa{
+    padding-top: 4rem;
+}
+
+.mapa iframe {
+    border-radius: 2rem;
+    width: 120%; 
+    height: 90%;
+}
+
+.lado , .lado a {
+    display: flex;
+    vertical-align: text-top;
+}
+
+.lado p{
+    margin-bottom: -2.5rem;
+    color:  white;
+}
+
+.lado i{
+    margin-top: 2.5rem;
+    padding-right: 0.5rem;
+}
+/* footer fim */
+
+
+
+/*index inicio*/
+/* bloco inicio*/
+.todo{
+    max-height: none;
+}
+
+.index_açai {
+    background-color: rgb(95, 232, 127);
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    height: 14rem;
+}
+
+.index_sorvete {
+    background-color: navajowhite;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    height: 22rem;
+}
+
+.index_salgado {
+    background-color: rgb(248, 237, 84);
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/* bloco fim */
+
+.index_img_esfiha {
+    width: 100%;
+    max-width: 15rem;
+    min-width: 10rem;
+}
+
+.index_img_cone {
+    width: 100%;
+    max-width: 10rem;
+    min-width: 8rem;
+    margin-top: 6rem;
+}
+
+.index_img_picole {
+    width: 100%;
+    max-width: 9rem;
+    min-width: 5rem;
+}
+
+.index_img_italiana {
+    width: 100%;
+    max-width: 9rem;
+    min-width: 5rem;
+    padding-top: 7rem;
+}
+
+.index_img_açai{
+    width: 100%;
+    max-width: 12rem;
+    min-width: 8rem;
+}
+
+.index_img_açai-2{
+    width: 100%;
+    max-width: 9rem;
+    min-width: 6rem;
+}
+
+/* texto inicio */
+.index_escrita{
+    color:rgba(162,7,80,255);
+    min-width: 20rem;
+    width: 55rem;
+}
+
+.sorvete_um{
+    text-align: start;
+}
+
+.sorvete_dois{
+    padding-top: 1rem;
+    text-align: end;
+}
+
+.salgado_um{
+    text-align: start;
+}
+
+.salgado_dois{
+    padding-top: 1rem;
+    text-align: end;
+}
+
+.acai{
+    text-align: center;
+}
+/* texto fim */
+/*index fim*/
+
+
+
+/*contato inicio*/
+.contatos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+/*instagram inicio*/
+.contato_centro{
+    margin: 5%;
+}
+
+.contato_instagram {   
+    background-color: #ff9e18;
+    border-radius: 7%;
+    border: .2rem solid #fe0467;
+    filter: drop-shadow(0rem 1rem 3rem rgb(83, 83, 83));
+    width: 25%;
+    min-width: 15rem;
+}
+
+.contato_instagram a {
+    text-decoration: none;
+}
+
+.contato_instagram_texto {
+    color:#fe0467;
+    text-align: center;
+    filter: drop-shadow( 0rem 0rem .3rem white);
+}
+
+.contato_instagramQR {
+    border-radius: 5%;
+    border: .2rem solid #fe0467;
+    width: 100%;
+    height: 100%;
+    max-width: 19.5rem;
+}
+/*instagram fim*/
+/*whatsapp inicio*/
+.contato_whatsapp {
+    background-color: #25D366;
+
+    border-radius: 7%;
+    width: 25%;
+    border: .2rem solid #075E54;
+    filter: drop-shadow(0 1rem 3rem rgb(83, 83, 83));
+    min-width: 15rem;
+}
+
+.contato_whatsapp a {
+    text-decoration: none;
+}
+
+.contato_whatsapp_texto {
+    color:#075E54;
+    text-align: center;
+    filter: drop-shadow( 0rem 0rem .3rem white);
+}
+
+.contato_whatsappQR {
+    border-radius: 5%;
+    border: .2rem solid #075E54;
+    width: 100%;
+    height: 100%;
+    max-width: 19.5rem;
+}
+/*whatsapp fim*/
+/*contato fim*/
+
+
+/*onde inicio*/
+.onde_lado{
+    display: flex;
+    justify-content: center;
+}
+
+.onde_fachada{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+.onde_fachada img{
+    width: 70%;
+    border-radius: 4%;
+}
+
+.onde_img{
+    padding: 0.5%;
+    width: 35%;
+}
+
+.onde_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+}
+
+.onde_mapa{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.onde_mapa iframe {
+    border-radius: 2rem;
+    width: 71%;
+}
+/*onde fim*/
+
+/* cardapi inicio */
+.cardapio{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.cardapio span{
+    text-align: center;
+}
+
+.cardapio p{
+    border: 0.3rem solid rgba(162,7,80,255);
+    padding: 0.3%;
+    background-color: white;
+    color: rgba(162,7,80,255)
+}
+
+.cardapio-paginas{
+    display: flex;
+    justify-content: center;
+}
+
+.cardapio-paginas img{
+    width: 48%;
+    border: 0.3rem solid rgba(162,7,80,255);
+    border-radius: 3%;
+    margin-left: 0.1%;
+    margin-bottom: 0.5%;
+} 
+/* cardapio fim*/
+
+@media only screen and (max-width: 800px) {
+
+
+    /*nav inicio*/
+    .logo{
+        display: none;
+    }
+
+    .pedir{
+        background-color: transparent;
+        border: none;
+    }
+
+    .pedir a{
+        color: white;
+    }
+    /*nav fim*/
+
+    /*contato inicio*/
+    .contatos {
+        display: block;
+        margin: auto;
+        justify-content: center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    /*contato fim*/
+
+    /*onde fica inicio*/
+    .onde_fachada , .onde_img {
+        display: none;
+    }
+
+    .onde_mapa {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+
+    .onde_mapa iframe {
+        height: 40rem;
+        width: 80%;
+        border-radius: 4%;
+    }
+
+    /*onde fica fim*/
+
+    /*carapio inicio*/
+
+    .cardapio-paginas {
+        display: block;
+        justify-content: center;
+    }
+    
+    .cardapio-paginas img {
+        width: 100%;
+    }
+
+    /*carapio fim*/
+
+    /*footer inicio*/
+    
+
+    .mapa {
+        display: none;
+    }
+
+    .lado {
+        padding: 7px;
+    }
+
+    /*footer fim*/
+
+    /*index inicio*/
+/* bloco inicio*/
+.menu{
+    display: none;
+}
+
+.index_açai {
+    display: block;
+    justify-content: center;
+    height: 22rem;
+    padding: none;
+}
+
+.index_sorvete {
+    display: block;
+    justify-content: center;
+    height: 22rem;
+    padding: none;
+}
+
+.index_salgado {
+    display: block;
+    justify-content: center;
+    height: 15rem;
+    padding: none;
+}
+/* bloco fim */
+
+.index_img_esfiha {
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 7rem;
+    min-width: 1rem;
+}
+
+.index_img_cone {
+    display: none;
+}
+
+.index_img_picole {
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 4rem;
+    min-width: 1rem;
+}
+
+.index_img_italiana {
+    display: none;
+}
+
+.index_img_açai{
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 7rem;
+    min-width: 1rem;
+}
+
+.index_img_açai-2{
+    display: none;
+}
+
+/* texto inicio */
+.index_escrita{
+    width: 100%;
+    min-width: 1rem;
+    font-size: 80%;
+}
+
+.sorvete_um {
+    text-align: center;
+    width: 100%;
+}
+
+.sorvete_dois{
+    display: none;
+}
+
+.salgado_um{
+    text-align: center;
+}
+
+.salgado_dois{
+    display: none;
+}
+/* texto fim */
+/*index fim*/
+
+/* drawer inicio */
+#menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background-color: rgba(162,7,80,255);
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+      padding: 1rem 0;
+      margin: 0 1rem;
+      border-bottom: 2px solid rgba(2,191,89,255);;
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+      color: rgba(2,191,89,255);
+      border-top: 2px solid;
+      width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+/* drawer fim */
+}
+
